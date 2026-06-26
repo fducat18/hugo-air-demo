@@ -24,6 +24,10 @@ _Avoid_: ad-hoc URL patching
 Canonical deployed URL prefix used for absolute asset generation in demo builds.
 _Avoid_: localhost path in production build
 
+**Hugo Runtime Baseline**:
+The agreed Hugo version used across GitHub Actions and hosted deploy targets to avoid behavior drift.
+_Avoid_: per-environment Hugo version drift
+
 ## Example dialogue
 
 Dev: "Demo CSS is broken after repository transfer."
