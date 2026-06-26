@@ -1,6 +1,6 @@
 # Site Configuration
 baseURL: http://localhost:1313/hugo-air-demo
-languageCode: en-GB
+locale: en-GB
 title: Hugo Air Theme Demo
 theme: air
 
@@ -8,7 +8,7 @@ theme: air
 params:
   author:
     name: François
-    siteUrl: https://francoiducat.github.io/hugo-air
+    siteUrl: https://fducat18.github.io/hugo-air
   gmaps_url: https://tinyurl.com/mr3uesbx
   mainColor: "#035c8c"
   footer: "Hugo Air Theme is a great responsive theme!"
@@ -17,9 +17,9 @@ params:
 defaultContentLanguage: fr
 languages:
   en:
-    languageCode: en-GB
+    locale: en-GB
     contentDir: content/en
-    languageName: English
+    label: English
     weight: 1
     menu:
       main:
@@ -65,9 +65,9 @@ languages:
         params:
           target: 
   fr:
-    languageCode: fr-FR
+    locale: fr-FR
     contentDir: content/fr
-    languageName: Français
+    label: Français
     weight: 2
     menu:
       main:

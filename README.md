@@ -6,7 +6,7 @@ The intent of this theme is to provide a solid starting place for Hugo sites wit
 
 | LIVE DEMO                                                 	                |
 |-----------------------------------------------------------------------------|
-| [francoiducat.github.io/hugo-air-demo](https://francoiducat.github.io/hugo-air-demo) 	|
+| [fducat18.github.io/hugo-air-demo](https://fducat18.github.io/hugo-air-demo) 	|
 
 
 
@@ -31,7 +31,7 @@ The intent of this theme is to provide a solid starting place for Hugo sites wit
 Inside the folder of your Hugo site run:
 
 ```bash
-git submodule add https://github.com/francoiducat/hugo-air.git themes/air
+git submodule add https://github.com/fducat18/hugo-air.git themes/air
 ```
 
 ## Usage
@@ -235,7 +235,7 @@ Content of Page 1
 ## Screenshot
 
  ### Mobile
-![screenshot](https://francoiducat.github.io/hugo-air/img/hugo-air-theme-mobile.jpg)
+![screenshot](https://fducat18.github.io/hugo-air/img/hugo-air-theme-mobile.jpg)
  
  ### Desktop
-![screenshot](https://francoiducat.github.io/hugo-air/img/hugo-air-theme-desktop.jpg)
+![screenshot](https://fducat18.github.io/hugo-air/img/hugo-air-theme-desktop.jpg)
