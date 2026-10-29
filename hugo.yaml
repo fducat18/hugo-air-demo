@@ -9,6 +9,19 @@ params:
   author:
     name: François
     siteUrl: https://notes.ducatillon.net
+  osm_url: https://www.openstreetmap.org/export/embed.html?bbox=3.02%2C50.62%2C3.07%2C50.66&layer=mapnik&marker=50.6439%2C3.0504
+  osm_zoom: 16
+  osm_markers:
+    - title: "Quartier Libre"
+      lat: 50.643936
+      lon: 3.050444
+      description: "Espace convivial & culturel au bord de la Deûle — Lille"
+      link: "https://www.openstreetmap.org/search?lat=50.643936&lon=3.050444"
+    - title: "Le p'tit quinquin"
+      lat: 50.637125
+      lon: 3.039490
+      description: "Statue et symbole lillois — Square Foch, Lille"
+      link: "https://www.openstreetmap.org/search?lat=50.637125&lon=3.039490"
   gmaps_url: https://tinyurl.com/mr3uesbx
   mainColor: "#035c8c"
   footer: "Hugo Air Theme is a great responsive theme!"
@@ -41,6 +54,10 @@ languages:
         pageRef: /features/default-header/
         parent: Features
         weight: 40
+      - name: Responsive OpenStreetMap
+        pageRef: /features/responsive-osm-map
+        parent: Features
+        weight: 45
       - name: Responsive Google Maps
         pageRef: /features/responsive-google-maps
         parent: Features
@@ -89,6 +106,10 @@ languages:
         pageRef: /features/default-header/
         parent: Fonctionnalités
         weight: 40
+      - name: Carte OpenStreetMap Responsive
+        pageRef: /features/responsive-osm-map
+        parent: Fonctionnalités
+        weight: 45
       - name: Carte Google Maps Responsive 
         pageRef: /features/responsive-google-maps
         parent: Fonctionnalités
