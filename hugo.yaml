@@ -36,9 +36,6 @@ languages:
     weight: 1
     menu:
       main:
-      - name: Home 
-        pageRef: /
-        weight: 20
       - name: Features
         pageRef: /features
         weight: 30
@@ -88,9 +85,6 @@ languages:
     weight: 2
     menu:
       main:
-      - name: Accueil 
-        pageRef: /
-        weight: 20
       - name: Fonctionnalités
         pageRef: /features
         weight: 30
